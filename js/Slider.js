@@ -6,7 +6,7 @@ let slides =  document.querySelectorAll('.slide');
 const slidesCount = slides.length;
 const slideWidth=1120;
 let offsetSlider = slideWidth;
-let currentSlide = Number(localStorage.getItem('currentSlide'));
+let currentSlide = Number(sessionStorage.getItem('currentSlide'));
 console.log(currentSlide);
 let currentRadioBtn = currentSlide;
 const moveNextSlide = -1;
@@ -63,7 +63,7 @@ function radioButtonClick()
         let newRadioBtn = Number(this.value);
         let dist=newRadioBtn - currentRadioBtn;
         currentRadioBtn=newRadioBtn;
-        localStorage.setItem('currentSlide',currentRadioBtn);
+        sessionStorage.setItem('currentSlide',currentRadioBtn);
         distance=Math.abs(dist);
         offsetSlider=distance*offsetSlider;
         if(dist>= 1){
@@ -86,7 +86,7 @@ function updateRadioBtn(){
     }
     currentRadioBtn=currentSlide;
     radioHeroBtns[currentRadioBtn].checked=true;
-    localStorage.setItem('currentSlide',currentRadioBtn);
+    sessionStorage.setItem('currentSlide',currentRadioBtn);
 };
 
 function nextSlide(){
