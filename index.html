@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+	<title>Lemon</title>
+</head>
+<body>
+
+	<section class="wrapper">
+		<header class="header">
+			<div class="header-logo">
+				<a href="#"><img src="img/Lemon-Logo.png"></a>
+			</div>
+			<nav class="header-nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">RECIPES</a></li>
+				<li><a href="#">PHOTO GALLERIES</a></li>
+				<li><a href="#">VIDEOS</a></li>
+				<li><a href="#">ALL CATEGORIES</a></li>
+			</ul>
+			</nav>
+				<button class="header-search" name="FindARecipe"><i class="fa fa-search header-fa-search" aria-hidden="true"></i>FIND A RECIPE
+				</button>
+		</header>
+		<div class="hero-section">
+			<div class="slider-wrapper">
+				<section class="slide" id="slide-1">
+					<div class="hero-info">	
+						<span class="hero-bananas">Bananas Foster Ice Cream Cake</span>
+						<p class="hero-text">If you're looking for decadence, look no further — you've found the Holy Grail of dessers. Honestly,
+							this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream
+							cake.</p>				
+					</div>
+				</section>
+				<section class="slide" id="slide-2">
+					<div class="hero-info">	
+						<span class="hero-bananas">One Bowl Chocolate Cake</span>
+						<p class="hero-text">This simple one bowl chocolate cake takes only minutes to prepare. 
+							Taste it on your own and don't forget to share with your friends.</p>				
+					</div>
+				</section>
+				<section class="slide" id="slide-3">
+					<div class="hero-info">	
+						<span class="hero-bananas">Chef John's Hummingbird Cake</span>
+						<p class="hero-text">Depending on where you're from, this hummingbird cake is either your favorite cake,
+							 or you've either never heard of it! But it only takes making it one time to love it. </p>				
+					</div>
+				</section>
+				<section class="slide" id="slide-4">
+					<div class="hero-info">	
+						<span class="hero-bananas">Fudge Layer Cream Cake</span>
+						<p class="hero-text">This decadent cake is creamy-smooth and buttery. 
+							It literally melts in your mouth and leaves you swooning for more! Sprinkle frosted cake with chocolate shavings..</p>				
+					</div>
+				</section>
+				<section class="slide" id="slide-5">
+					<div class="hero-info">	
+						<span class="hero-bananas">Toasted Marshmallow Cake</span>
+						<p class="hero-text">If you enjoy the flavor of toasted marshmallows, then this cake is for you! 
+							It's great topped with additional toasted marshmallow frosting, or with some chocolate ganache and graham cracker crumbs!</p>				
+					</div>
+				</section>			
+			</div>
+				<a id="hero-logo" href="#"><img  src="img/hero-logo.png"></a>	
+				<button class="get-recipe-btn" id="GetItRecipe">GET IT RECIPE</button>
+				<div class="hero-ellipse ellipse-group">
+					<input class="ellipse" name ="h-ellipse" type="radio" value="0"checked>
+					<input class="ellipse" name ="h-ellipse" type="radio" value="1">
+					<input class="ellipse" name ="h-ellipse" type="radio" value="2">
+					<input class="ellipse" name ="h-ellipse" type="radio" value="3">
+					<input class="ellipse" name ="h-ellipse" type="radio" value="4">
+				</div>
+		</div>
+		<!-- Андрей -->
+		<div class="Recipees_Block">
+			<div class="Recipe_info">
+            	<div class="Resize_img">
+               		 <img class="Recipe_img" src="img/food-one.jpg" >
+           		</div>
+        
+        	<p class="Recipe_text"> <a class="Recipees_link" target="_self" href="#">Raspberry & Cream Frozen Yogurt Pie</a> </p>
+
+            <div class="Time_Comment_Watches">
+                <div class="Recipe_Time">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i> </a>
+                    <p class="Time_Comment_Watches_Text">35mins</p>
+                </div>
+    
+                <div class="Recipe_Watches">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                    <p class="Time_Comment_Watches_Text">7</p>
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-eye"></i> </a>
+                    <p class="Time_Comment_Watches_Text">14</p>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="Recipe_info">
+            <div class="Resize_img">
+                <img src="img/food-two.jpg" class="Recipe_img">    
+            </div>
+        
+            <p class="Recipe_text"><a class="Recipees_link" target="_self" href="#">Giant Ice Cream Sandwich</a></p>
+
+            <div class="Time_Comment_Watches">
+                <div class="Recipe_Time">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i></a>
+                    <p class="Time_Comment_Watches_Text">20mins</p>
+                </div>
+    
+                <div class="Recipe_Watches">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-comment"></i></a>
+                    <p class="Time_Comment_Watches_Text">4</p>
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-eye"></i></a>
+                    <p class="Time_Comment_Watches_Text">356</p>
+                </div>
+            </div>
+       </div>
+
+       <div class="Recipe_info">
+            <div class="Resize_img">
+                <img src="img/food-three.jpg" class="Recipe_img">    
+             </div>
+        
+            <p  class="Recipe_text"> <a class="Recipees_link" target="_self" href="#">Dark Chocolate Crunch Ice Cream Sandwich Cake</a> </p>
+
+            <div class="Time_Comment_Watches">
+                <div class="Recipe_Time">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i> </a>
+                    <p class="Time_Comment_Watches_Text">15mins</p>
+                </div>
+    
+                <div class="Recipe_Watches">
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                    <p class="Time_Comment_Watches_Text">4</p>
+                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-eye"></i> </a>
+                    <p class="Time_Comment_Watches_Text">167</p>
+                </div>
+            </div>
+        </div>
+   	</div>
+		   	<!-- Вадим -- Bananas -->
+		   		  <div class="recipe_block-vadim">
+		      <div class="img_block-vadim">
+		         <img class="bananas_img" src="img/bananas_03.jpg" >
+		         <div class="bananas_img_icon">
+		          
+		              <div class="img_icon_V"><i class="fa-regular fa-file-image"></i></div>
+		         
+		         </div>
+
+		      </div>
+		      <div class="info_block-vadim">
+		         <h2 class="info_block_title">
+		              Bananas Foster Ice Cream Cake
+				 </h2>
+
+		     <div class="info_block_iconWithButton">
+		              
+		         <div class="icons">
+		                <div class="Recipe_Time-vadim">
+		                    <a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i> </a>
+		                </div>     
+		                    
+		            <p class="Time_Comment_Watches_Text_V">15mins</p>
+		                   
+		                   <div class="Recipe_level-vadim">
+		                    <a class="picture"  href="#" title="Grades of difficulity"> </a>
+		                   </div>
+		             
+		             <div class="Time_Comment_Level_Text_V">
+		              Easy
+		             </div>
+		           
+		         </div>            
+			
+
+		         
+		      </div>
+		       <p class="info_block_text ibt_1">
+		        1 (8 once) container frozen whipped topping, thawed
+		        20 chocolate round wafers, divided</p>
+				<p class="info_block_text ibt_2">
+		        1 (7 1/4 ounce) bottle Smucker's®  Hot Dark Chokolate Microwaveable Top-ping, divided
+			   </p>
+		     
+		        <span class="new_title_Directions">
+		        Directions
+				</span>
+		     
+		        <p class="info_block_text ibt_3">
+		          ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to
+		          form an even layer. Spread with half of whipped topping. Break or crush
+		          chocolate wafers and sprinkle over the whipped cream. Microvawe 1 cup of 
+		          chocolate topping into small microvawe-safe bowl on HIGH for 30 seconds.
+				</p>
+				<p class="info_block_text ibt_3">  Drizzle evenly over wafers.</p>
+				<p class="info_block_text ibt_3">TOP with remaining 8 to 9 ice cream sandwiches to form an even layer.
+				Spread with remaining whipped topping. Freeze 3 hours or overnight.Remove </p>
+				</p>
+		      </div>
+		  </div>
+
+		  <!--vadim error+karen-->
+		  <section class="karen-and-error">
+			<div class="Block_404">
+				<div class="Block_Sign_Header">
+				   <h4 class="Block_Sign_Font-vadim">404</h4>
+				   </div>
+				   <div class="Block_404_Body">
+				      <div class="Block_404_img ">				       
+				          <span class="Text_404_Bold ">Sorry</span>
+				          <p class="Text_404_Grey_1 ">WE COULDN'T
+							FIND THE PAGE</p>
+				          <span class="Text_404_Smile ">:(</span>
+				     </div> 
+				      
+				   </div>
+                             <button class="get-recipe-btn back-dir" >BACK</button>
+				</div>
+						<div class="Block_karen">
+							<div class="Block_Sign_Header">
+								<h4 class="Block_Sign_Font">Author</h4>
+							</div>
+					   
+					   <div class="block_with_photo_and_text"> 
+					      <div class="block_karen_photo">   
+					        <img class="round_photo" src="img/karen.jpg">
+					      </div>
+					      
+					      <div class="block_karen_text">
+					         <span class="block_karen_text_title"> Karen Gray</span>     
+					         <span class="block_karen_text_country">United States</span>
+					           <div class="block_karen_text_planka">
+					             <div class="Icons_Contact_Us-vadim">
+					              <a class="Icon_Href-vadim" href="#">
+					              <i class="fa-brands fa-google-plus-g"></i>
+					              </a>
+					              <a class="Icon_Href-vadim" href="#">
+					              <i class="fa-brands fa-twitter"></i>
+					              </a>
+					              <a class="Icon_Href-vadim" href="#">
+					              <i class="fa-brands fa-facebook-f "></i>
+					              </a>
+					              <a class="Icon_Href-vadim" href="#">
+					              <i class="fa-brands fa-pinterest"></i>
+					              </a>
+					             </div>
+					           </div>
+
+					         <div class="line_h_karen2"></div>   
+					         <span class="block_karen_text_title_about_lemon">About Lemon</span>  
+					       <p class="block_karen_text_info"> 
+								Over the fifteen-year life span of Food.com, we've
+								learned that - in addition to eating - sharing is
+								what you do best. And thanks to the 20 million of
+								you who come here each month, we now have
+								500,000 recipes to show for it,more than any-
+								where else in the digital universe. We also have tons
+								crazy-tempting photos,travers of recipe reviews and
+								more than 2 million Facebook likes. That's a heck of
+								a lot of Food. Thank you! </p> 
+					      <div class="img_panel">
+					     <img class="img_signature" src="img/Signature.png">   
+					      </div>
+					      
+					</div>
+					   </div>
+					</div>
+		  </section>
+   	<!-- gr-->
+   		<section class="side-bar">  <!--side bar one-->
+   			<div class="side-bar-one">
+	   			<section class="recipe-blog"> <!--recipe-->
+	   				<div class="recipe-align">
+	   				<h3 class="recipe-head-blog">Chi-Chi or Chichi</h3>
+	   				<div class="recipe-bloger-info">
+	   					<div class="recipe-bloger-photo">
+	   						<img src="img/ChiChi-bloger.jpg">
+	   					</div>
+	   					<div class="recipe-bloger-text">  
+	   						<span class="recipe-bloger-text-lite">Recipe by</span>
+	   						<span class="recipe-bloger-text-bold">Smuckersreg Toppings</span>
+	   						<div class="Time_Comment_Watches"> <!--comments+mins+ext-->
+                				<div class="Recipe_Time">
+                   					<a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i> </a>
+                    				<p class="Time_Comment_Watches_Text">15mins</p>
+               					</div>
+    
+                				<div class="Recipe_Watches">
+                    				<a class="Recipees_link" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                  					<p class="Time_Comment_Watches_Text">12</p>
+                    				<a class="Recipees_link" href="#"> <i class="fa-regular fa-eye"></i> </a>
+                    				<p class="Time_Comment_Watches_Text">37</p>
+                				</div>
+            				</div>
+	   					</div>
+	   				</div>
+	   				</div>
+	   				<div class="recipe-bloger-img"> <!--radio-button-->
+	   					<div class="recipe-ellipse ellipse-group">
+							<input class="ellipse" name ="recipe-ellipse" type="radio" value="1">
+							<input class="ellipse" name ="recipe-ellipse" type="radio" value="2">
+							<input class="ellipse" name ="recipe-ellipse" type="radio" value="3"checked>
+							<input class="ellipse" name ="recipe-ellipse" type="radio" value="4">
+							<input class="ellipse" name ="recipe-ellipse" type="radio" value="5">
+						</div>
+	   				</div>
+	   			</section>
+	   			<section class="Target_Block"> <!--target-block-->
+            		<div class="Block_Header">
+                		<h4 class="Block_Header_Font">Target</h4>
+                
+                			<div>	<!--icons-->
+                    			<a class="Recipees_link" href="#"><i class="fa-solid fa-print Head_Icons"></i></a>
+                    			<a class="Recipees_link" href="#"><i class="fa-regular fa-envelope Head_Icons"></i></a>
+                    			<a class="Recipees_link" href="#"><i class="fa-brands fa-facebook-f Head_Icons"></i></a>
+                    			<a class="Recipees_link" href="#"><i class="fa-brands fa-pinterest Head_Icons"></i></a>
+                			</div>
+            		</div>
+    
+            		<div class="Target_Content">  <!--target-content-->
+                		<span class="Target_Title">Presentation line</span>
+                			<div class="Target_info">
+                    			<span class="Procent pr19">19%</span>
+                    
+                    				<div class="Target_Text">
+                        				<span class="Target_Text_Header">Housewives</span>
+                        					<p id="targ_1">Lorem ipsum dolor sit
+											amet, prima ceteros.</p>
+                   					</div>
+                			</div>
+
+                			<div class="Target_info">
+                    			<span class="Procent pr65">65%</span>
+                    
+                    			<div class="Target_Text">
+                        			<span class="Target_Text_Header">Newlyweds</span>
+                        				<p id="targ_2">Has brute elitr deserunt 
+											ea, assention eloquen-
+											fiam neglegentur te sed.</p>
+                    			</div>
+               			 	</div>
+
+                			<div class="Target_info">
+                    			<span class="Procent pr50">50%</span>
+                    
+                    			<div class="Target_Text">
+                        			<span class="Target_Text_Header">Business lady</span>
+                        				<p>Ei nam primis putent signiferumque.</p>
+                    			</div>
+                			</div>
+            		</div>
+       			</section>
+   			</div>
+   			<div class="side-bar-two">
+	   			<section class="recipe-filtre">
+	   				<div class="Block_Header">
+                	<h4 class="Block_Header_Font">Recipe</h4>
+                		<div>
+                     		<a class="Recipees_link" href="#"><i class="fa-solid fa-print Head_Icons"></i></a>
+                     		<a class="Recipees_link" href="#"><i class="fa-regular fa-envelope Head_Icons"></i></a>
+                     		<a class="Recipees_link" href="#"><i class="fa-brands fa-facebook-f Head_Icons"></i></a>
+                     		<a class="Recipees_link" href="#"><i class="fa-brands fa-pinterest Head_Icons"></i></a>
+              		 	</div>
+            		</div>
+            		<div class="easy-middle-long">
+            			<input class="emh-radio" id="emh-radio-1" type="radio" name="filtre" value="f1" checked><label for="emh-radio-1">EASY</label>
+            			<input class="emh-radio" id="emh-radio-2" type="radio" name="filtre" value="f2"><label for="emh-radio-2">MIDDLE</label>
+            			<input class="emh-radio" id="emh-radio-3" type="radio" name="filtre" value="f3"><label for="emh-radio-3">LONG</label>
+            		</div>
+            		<div class="recipe-list">
+            			<div class="recipe-list-img"><img src="img/recipe-1.png"></div>
+            			<div class="recipe-list-text">
+            				<span class="recipe-list-text-header"><span class="text-by">by</span> Smuckersreg Toppings</span>
+            				<p class="recipe-list-text-context">Thanks for the recipe
+								lorem ipsum bla bla bla
+								Thanks for the recipe lore</p>
+            			</div>
+            		</div>
+            		<div class="recipe-list">
+            			<div class="recipe-list-img"><img src="img/recipe-2.png"></div>
+            			<div class="recipe-list-text">
+            				<span class="recipe-list-text-header"><span class="text-by">by</span> Smuckersreg Toppings</span>
+            				<p class="recipe-list-text-context">Thanks for the recipe
+								lorem nks for the recipe</p>
+            			</div>
+            		</div>
+            		<div class="recipe-list">
+            			<div class="recipe-list-img"><img src="img/recipe-3.png"></div>
+            			<div class="recipe-list-text">
+            				<span class="recipe-list-text-header"><span class="text-by">by</span> Smuckersreg Toppings</span>
+            				<p class="recipe-list-text-context">Thanks for the recipe
+								lorem nks for the recipe</p>
+            			</div>
+            		</div>
+            		<button class="recipe-view-more get-recipe-btn">VIEW MORE</button>
+	   			</section>
+
+
+	   			 <!-- Tags-block --Vadim-->
+				   <div class="tags_block">
+			        <div class="Block_Sign_Header">
+						<h4 class="Block_Sign_Font">Tags</h4>
+					</div>
+			   
+			        <div class="line1 text_tags" >
+			         <a class="tag_links" href="#">#YUMMY</a> 
+			         <a class="tag_links" href="#">#SWEET</a> 
+			         <a class="tag_links" href="#">#DINNER</a>  
+			         <a class="tag_links" href="#">#LUNCH</a>
+			        </div>
+			  
+			    
+			        <div class="line2 text_tags" >
+			         <a class="tag_links" href="#">#BREAKFAST</a> 
+			         <a class="tag_links" href="#">#FRESH</a> 
+			         <a class="tag_links" href="#">#TASTY </a>
+			         <a class="tag_links" href="#">#DELISH</a>
+			        </div>
+			     
+			    
+			        <div class="line3 text_tags" >
+			         <a class="tag_links" href="#">#DELICIOUS</a> 
+			         <a class="tag_links" href="#">#EATING</a>
+			         <a class="tag_links" href="#">#FOOD</a>
+			        </div>
+			  </div>
+
+
+			  <!-- Calendar-Vadim-->
+			  	<div class="calendar">
+					<div class="Block_Sign_Header">
+						<h4 class="Block_Sign_Font">Calendar</h4>
+					</div>
+			  <div class="month_name_with_angels">
+			   <a class="angle_icon" href="#"><i class="fa-solid fa-angle-left"></i></a>
+			     <span class="month_name_font">June 2017</span>
+			   <a class="angle_icon" href="#"><i class="fa-solid fa-angle-right"></i></a>
+			  </div>
+			   
+			   <table class="setka">
+			     <tbody>
+			       <tr class="day_headers">       
+			        <td title="Sunday">Su</td> 
+			        <td title="Monday">Mo</td>     
+			        <td title="Tuesday">Tu</td> 
+			        <td title="Wednesday">We</td> 
+			        <td title="Thursday">Th</td> 
+			        <td title="Friday">Fr</td> 
+			        <td title="Saturday">Sa</td> 
+			      </tr>
+			       
+			       <tr class="first_row">
+			       <td class="shadow_data">28</td>
+			       <td class="shadow_data">29</td>
+			       <td class="shadow_data">30</td>
+			       <td class="shadow_data">31</td>
+			       <td class="data">1</td>
+			       <td class="data">2</td>
+			       <td class="data">3</td>       
+			       </tr>
+
+			       <tr class="second_row">
+			       <td class="data">4</td>
+			       <td class="data">5</td>
+			       <td class="data">6</td>
+			       <td class="data">7</td>
+			       <td class="data">8</td>
+			       <td class="data">9</td>
+			       <td class="data">10</td>       
+			       </tr>
+
+			       <tr class="third_row">
+			       <td class="data">11</td>
+			       <td class="data">12</td>
+			       <td class="data">13</td>
+			       <td class="data">14</td>
+			       <td class="data">15</td>
+			       <td class="data">16</td>
+			       <td class="data">17</td>       
+			       </tr>
+
+			       <tr class="forth_row">
+			       <td class="data">18</td>
+			       <td class="data">19</td>
+			       <td class="data">20</td>
+			       <td class="data">21</td>
+			       <td class="data">22</td>
+			       <td class="data">23</td>
+			       <td class="data">24</td>       
+			       </tr>
+
+			       <tr class="fifth_row">
+			       <td class="data">25</td>
+			       <td class="data">26</td>
+			       <td class="data">27</td>
+			       <td class="data">28</td>
+			       <td class="data">29</td>
+			       <td class="data">30</td>
+			       <td class="shadow_data">1</td>       
+			       </tr>
+			   </tbody>
+			   </table>
+			 </div>
+			 <script> </script>
+   			</div>
+
+
+   		
+
+			   	
+
+   			<!-- 3rd bar-->
+   			<div class="side-bar-three">
+	   			<section class="popular-now">
+	   				<div class="popular-now-info">
+	   					<h2 class="popular-head-now">Popular Now</h2>
+	   					<span class="vanilla-frozen-text">Vanilla Frozen Coffee</span>
+	   					<span class="mix-coffee-text">Mix coffee, sugar and creamer.</span>
+						<span class="mix-coffee-text">Pour into blender and add ice cubes.</span>
+						<span class="mix-coffee-text">Blend until smooth.</span>
+	   					
+	   					<div class="popular-end"><button class="get-recipe-btn">GET IT RECIPE</button>
+	   					<div class="popular-comment Time_Comment_Watches">
+                			<div class="Recipe_Time">
+                    			<a class="Recipees_link" href="#"> <i class="fa-regular fa-clock"></i></a>
+                    			<p class="Time_Comment_Watches_Text">6mins</p>
+                			</div>
+    					
+                			<div class="Recipe_Watches">
+                    			<a class="Recipees_link" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                    			<p class="Time_Comment_Watches_Text">240</p>
+                    			<a class="Recipees_link" href="#"> <i class="fa-regular fa-eye"></i> </a>
+                    			<p class="Time_Comment_Watches_Text">400</p>
+                			</div>
+           				</div>
+           			</div>		
+	   				</div>
+	   			</section>
+	   			<!--Timeline ; made by Andrey-->
+	   			<section class="Timeline_Block">
+            		<div class="Block_Header">
+                		<h4 class="Block_Header_Font">Timeline</h4>
+             
+                			<div>
+                     			<a class="Recipees_link" href="#"><i class="fa-solid fa-print Head_Icons"></i></a>
+                     			<a class="Recipees_link" href="#"><i class="fa-regular fa-envelope Head_Icons"></i></a>
+                     			<a class="Recipees_link" href="#"><i class="fa-brands fa-facebook-f Head_Icons"></i></a>
+                     			<a class="Recipees_link" href="#"><i class="fa-brands fa-pinterest Head_Icons"></i></a>
+                			</div>
+            			</div>
+
+			            <div class="Timeline_Content">
+			                <span class="Timeline_Title">Time line</span>
+			                	<div class="Timeline_Graphics">
+				                    <div class="Timeline_Graphic">
+				                        <span class="_EASY">EASY</span>
+				                        <span class="Timeline_Graphic_Text">15 mins</span>
+				                    </div>
+				                    <div class="Timeline_Graphic">
+				                        <span class="_MIDDLE">MIDDLE</span>
+				                        <span class="Timeline_Graphic_Text">25 mins</span>
+				                    </div>
+				                    <div class="Timeline_Graphic">
+				                        <span class="_LONG">LONG</span>
+				                        <span class="Timeline_Graphic_Text">40 mins</span>
+				                    </div>
+			                	</div>
+			                <p class="Timeline_Text"> Eam adhuc iudico percipitur ex, 
+							ut malis audire voluptaria has.</p>
+			            </div>
+        		</section>
+   			</div>
+   		</section>
+
+ 						<!--comments + footer-- Vika-->
+   		<section class="Login_Sign_In">
+
+			<section class="Login_Block">
+				<div class="Block_Login_Header">
+					<h4 class="Block_Login_Font">Login</h4>
+				</div>
+				<div class="Block_Login_Body">
+					<span class="Block_Login_Body_Font">Login for LEMON</span>
+					<div class="Block_Input">
+						<input class="Input_Data" id="email_or_login" type="text" placeholder="email or login" data-tooltip="Введите email или логин. Логин должен состоять из не менее 2 символов. Логин может содержать только символы латинского алфавита, цифры и символ _">
+						<input class="Input_Data" id="password_login" type="password" placeholder="password" data-tooltip="Пароль должен содержать строчные и прописные латинcкие символы, цифры">
+						<div class="Block_Inline">
+							<div class="Block_Inline_Text_Checkbox">
+								<input type="checkbox">
+								<span class="Text_Remember_Me">Remember me</span>
+							</div>      
+							<a class="Text_Forgot" href="#">Forgot your password?</a>             
+						</div> 
+					</div>
+					<input class="get-recipe-btn log-dir" id="btn_login" type="button" value="LOGIN" disabled>
+					<div class="Block_Icons">
+						<a class="Icon_Href reg_icons" href="#"> <i class="fa-brands fa-facebook-f Head_Icons reg_icons"></i></a>
+						<a class="Icon_Href google-icn" href="#"><i class="fa-brands fa-google-plus-g Head_Icons"></i></a>            
+					</div>    
+				</div>
+				<div class="Block_Login_Footer">
+					<span class="Text_Dont_Have">Don't have an account?</span>
+					<a class="Text_Sign_In" href="#">Sign In</a>  
+				</div> 
+			</section>
+	
+	
+	
+			<section class="Sign_In_Block">
+				<div class="Block_Sign_Header">
+					<h4 class="Block_Sign_Font">Sign in</h4>
+				</div>
+				<span class="Block_Sign_Body">
+					<span class="Block_Sign_Body_Font">Sign in for LEMON</span>
+					<div class="Block_Input block-input-dir">
+						<input class="Input_Data" id="email_sing_in" type="text" placeholder="email" data-tooltip="Введите email.">
+						<input class="Input_Data" id="username_sing_in" type="text" placeholder="username" data-tooltip="Имя пользователя должно содержать не менее 2 символов. Имя пользователя должно содержать символы латинского алфавита, цифры и символ _">
+						<input class="Input_Data" id="password_0_sing_in" type="password" placeholder="password" data-tooltip=" Пароль должен содержать строчные и прописные латинские символы, цифры">
+						<input class="Input_Data" id="password_1_sing_in" type="password" placeholder="repeat password" data-tooltip="Повторите пароль.">
+					</div>
+						<input class="get-recipe-btn log-dir" id="btn_sing_in" type="button" value="SING UP" disabled>
+					<div class="Block_Icons">
+						<a class="Icon_Href reg_icons" href="#"><i class="fa-brands fa-facebook-f Head_Icons "></i></a>
+						<a class="Icon_Href google-icn" href="#"><i class="fa-brands fa-google-plus-g Head_Icons"></i></a>            
+					</div> 
+				</div>
+				<div class="Block_Sign_Footer">
+					<span class="Text_Agree">By joining LEMON, you agree to our</span>
+					<a class="link-terms" href="#">Terms of Service.</a> 
+					<a class="Text_Login" href="#">LOGIN</a>   
+				</div> 
+			</section>
+		</section>
+
+    <section class="Comments_Pages">
+        <section class="Block_Post">
+            <div class="Block_Post_Header">
+                <h4 class="Block_Post_Font">Post a Comment</h4>
+                <div class="Block_Buttons">
+                    <a class="Parallelogram" href="#">Facebook</a>
+                    <div class="Paral_Border"></div>
+                    <a class="Parallelogram" href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="Block_Input_Post">
+                <div class="recipe-bloger-photo-post">
+                    <img src="img/w-22.jpg">
+                </div>
+                <input class="Input_Post" type="text" id="commentTextField" maxlength="700">
+                <button class="Button_Post" id="btn-post" disabled>POST</button>
+            </div>
+        </section>
+        <section class="Block_Comments">
+            <div class="Block_Sign_Header">
+                <h4 class="Block_Sign_Font">Comments</h4>
+            </div>
+
+
+
+			<div class="CommentsPagesList">
+				<div class="Comment-Page-num hiddenClass" id="Page-1">
+				<div class="Comment">
+					<div class="Comment_Header">
+						<div class="Comment-info">
+							<div class="recipe-bloger-photo-comm">
+								<img src="img/w-22.jpg">
+							</div>
+							<div class="Comment_Header_Text">
+									<span class="bloger-text-lite">post by</span>
+									<div class="inline_reply">
+										<span class="recipe-bloger-text-bold">Smuckersreg&nbspToppings</span>
+										<a class="reply_href" href="#">reply</a>
+									</div>
+									<span class="Date_Text">06/10/2014</span>                        
+							</div>
+						</div>
+						<div class="Inline_Icons">
+							<span class="Text_Likes">456</span>
+							<a class="Icon_Like" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+							<span class="Text_Likes">15</span>
+							<a class="Icon_Like" href="#"><i class="fa-regular fa-thumbs-up"></i></a>
+						</div>           
+					</div>
+					<div class="Comment_Body">
+						<div class="Img_Under_Icon">
+							<div class="Resize_img">
+								<img class="Comment_img" src="img/fa6310ce952b5e606ccfe99ad31c81b1.jpg">
+							</div>
+							<div class="overlay">
+								<a href="#" class="Icon_Circle">
+									<i class="fa-solid fa-circle"></i>
+								</a>
+								<a href="#" class="Icon_Img">
+									<i class="fa-brands fa-pinterest"></i>
+								</a>
+							</div>
+						</div>
+						<p class="Comment_Text_Light">Thanks for the recipe</p>
+
+
+						<div class="Replyed_Comment">
+							<div class="Comment_Header">
+								<div class="Comment-info">
+									<div class="recipe-bloger-photo-comm">
+										<img src="img/w-22.jpg">
+									</div>
+									<div class="Comment_Header_Text">
+											<span class="bloger-text-lite">post by</span>
+											<div class="inline_reply">
+												<span class="recipe-bloger-text-bold">Smuckersreg&nbspToppings</span>
+												<a class="reply_href" href="#">reply</a>
+											</div>
+											<span class="Date_Text">06/10/2014</span>
+									</div>
+								</div>
+								<div class="Inline_Icons">
+									<span class="Text_Likes">456</span>
+									<a class="Icon_Like" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+									<span class="Text_Likes">15</span>
+									<a class="Icon_Like" href="#"><i class="fa-regular fa-thumbs-up"></i></a>
+								</div>           
+							</div> 
+											
+								<p class="Comment_Body Comment_Text_Bold">Thanks for the recipe lorem ipsum bla bla bla Thanks for the recipe lore</p>							
+								<a class="Other_Comments" href="#">24 more comments</a>      
+						</div>
+						
+					</div>
+				</div>
+				<div class="Comment">
+					<div class="Comment_Header">
+						<div class="Comment-info">
+							<div class="recipe-bloger-photo-comm">
+								<img src="img/w-22.jpg">
+							</div>
+							<div class="Comment_Header_Text">                         
+									<span class="bloger-text-lite">post by</span>
+									<div class="inline_reply">
+										<span class="recipe-bloger-text-bold">Smuckersreg&nbspToppings</span>
+										<a class="reply_href" href="#">reply</a>
+									</div>
+									<span class="Date_Text">06/10/2014</span>
+							</div>
+						</div>
+						<div class="Inline_Icons">
+							<span class="Text_Likes">456</span>
+							<a class="Icon_Like" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+							<span class="Text_Likes">15</span>
+							<a class="Icon_Like" href="#"><i class="fa-regular fa-thumbs-up"></i></a>
+						</div>           
+					</div>					
+						<p class="Comment_Body Comment_Text_Light">Thanks for the recipe</p>
+				</div>
+			</div>   
+			</div>
+        </section>
+        <section class="Block_Pages">
+            <button class="Forward_Back_Pages" id="href-left">&lt</button>
+			<div class="Numbers-Wrapper">
+				<div class="Numbers" id="num-pagination">
+					<input class="p-radio" id="page_1" type="radio" name="page" value="1"checked>
+					<label class="page_numb" for="page_1">1</label>
+				</div>
+			</div>
+            <button class="Forward_Back_Pages" id="href-right">&gt</button>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <a class="Logo_Footer" href="#">
+            <img src="img/logo-0.png">
+        </a>
+        <nav class="Footer_Nav">
+            <ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">RECIPES</a></li>
+				<li><a href="#">PHOTO GALLERIES</a></li>
+				<li><a href="#">VIDEOS</a></li>
+				<li><a href="#">ALL CATEGORIES</a></li>
+			</ul>
+        </nav>
+        <div class="copyright-m">
+            <span class="Footer_Copyright">© 2016-2017 LEMON ALL RIGHT RESERVED</span>
+            <div class="Icons_Contact_Us ">
+                <a class="Icon_Href footer-icn" href="#">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <a class="Icon_Href footer-icn" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="Icon_Href footer-icn" href="#">
+                    <i class="fa-brands fa-facebook-f Head_Icons"></i>
+                </a>
+                <a class="Icon_Href footer-icn" href="#">
+                    <i class="fa-brands fa-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+	
+	</section>
+	
+	<script src="js/Slider.js"></script>
+	<script src="js/Recipe.js"></script>
+	<script src="js/Validate.js"></script>
+	<script src="js/Comments.js"></script>
+
+</body>
+</html>
